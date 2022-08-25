@@ -1,5 +1,5 @@
 variable "prefix" {
-  description = "リソースの接頭辞の指定。名前などを一意の値を�
+  description = "Specifying the name of prefix"
 }
 variable "vpc_cidr_block" {
   description = "VPC CIDR ブロックの設定。デフォルト値は`10.0.0.0/16`"
