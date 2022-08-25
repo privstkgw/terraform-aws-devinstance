@@ -1,4 +1,5 @@
-cription = "リソースの接頭辞の指定。名前などを一意の値を入力"
+variable "prefix" {
+  description = "リソースの接頭辞の指定。名前などを一意の値を入力"
 }
 variable "vpc_cidr_block" {
   description = "VPC CIDR ブロックの設定。デフォルト値は`10.0.0.0/16`"
